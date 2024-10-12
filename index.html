@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Pendaftaran Pengajar Kelas Digital</title>
+</head>
+<body>
+    <div class="container">
+        <img src="digiday.png">
+        <h1>Pendaftaran Pengajar Kelas Digital Technology Digi-Day</h1>
+        <form action="index2.html" method="post">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Pilih Jenis Kelamin</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+
+            <label for="pendidikan">Pendidikan Terakhir</label>
+            <select id="pendidikan" name="pendidikan terakhir" required>
+                <option value="">Pilih Pendidikan Terakhir</option>
+                <option value="D3">D3</option>
+                <option value="S1/D4">S1/D4</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+            </select>
+
+            <label for="tempat">Institusi Tempat Terakhir Menempuh Pendidikan:</label>
+            <input type="text" id="tempat" name="tempat" required>
+
+            <label for="jurusan">Jurusan </label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">Pilih Jurusan </option>
+                <option value="infor">Teknik Informatika</option>
+                <option value="si">Sistem Informasi</option>
+                <option value="ilkom">Ilmu Komputer</option>
+                <option value="tekkom">Teknik Komputer</option>
+                <option value="dkv">Desain Komunikasi Visual</option>
+                <option value="cyber">Cyber Security</option>
+                <option value="ai">Artificial Intelligence</option>
+                <option value="media">Multimedia / New Media</option>
+                <option value="rpl">Rekayasa Perangkat Lunak / Software Engineering </option>
+                <option value="lain">Lainnya.. </option>
+            </select>
+
+            <label for="alamat">Alamat Domisili:</label>
+            <textarea id="alamat" name="alamat" rows="3" required></textarea>
+
+            <label for="pengalaman">Pengalaman Mengajar:</label>
+            <textarea id="pengalaman" name="pengalaman" rows="4" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="divisi">Pilihan Skill:</label>
+            <select id="divisi" name="divisi" required>
+                <option value="">Pilih Skill yang anda bisa ajarkan</option>
+                <option value="kurikulum">Web Development (HTML, CSS, JS, PHP)</option>
+                <option value="teknis">Database (Microsoft Access & Power BI)</option>
+                <option value="humas">Artificial Intelligence (Python)</option>
+                <option value="acara">UI/UX (Figma) </option>
+            </select>
+
+            <label for="alasan">Alasan Memilih Skill:</label>
+            <textarea id="alasan" name="alasan" rows="4" required placeholder="Jika anda punya keahlian di aplikasi selain disebutkan mohon diceritakan disini.."></textarea>
+
+            <label for="nohp">Nomor HP:</label>
+            <input type="number" id="nohp" name="nohp" required>
+
+            </select>
+            <input type="submit" value="Continue">
+        </form>
+        
+    </div>
+    <p style="text-align: center;">Made By Kelompok Pemweb : Rizal Wira Pambudi (202331175) & Yolanda Kristine Boru Sembiring (202331166)</p>
+</body>
+</html>
